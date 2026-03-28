@@ -1,0 +1,7 @@
+#!/mnt/1962bfc0-f9ca-4c35-a3e2-7f1d23b699bd/PROGRAMAS/Cursos/Python/Estudos/28-03-26/venv/bin/python
+import sys
+from pip._internal.cli.main import main
+if __name__ == '__main__':
+    if sys.argv[0].endswith('.exe'):
+        sys.argv[0] = sys.argv[0][:-4]
+    sys.exit(main())
