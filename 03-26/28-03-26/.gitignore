@@ -1,0 +1,14 @@
+# Ambiente virtual
+venv/
+.env/
+
+# Python
+__pycache__/
+*.pyc
+
+# Banco SQLite
+*.db
+
+# IDE
+.vscode/
+.idea/
